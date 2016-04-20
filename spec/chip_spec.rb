@@ -44,7 +44,7 @@ RSpec.describe "Chip" do
     red_chip = Chip.new(:red, 5)
 
     describe "#>" do
-      it "returns true if chip is greater than other chip" do
+      it "returns true if chip value is greater than other chip" do
         assert_equal true, black_chip > red_chip
       end
 
